@@ -237,7 +237,7 @@ section >article > h1{
 }
 
 #list-detail{
-    width:100px;
-    height: 100px;
+    width:inherit;
+    height: inherit;
     background-color: aqua;
 }
