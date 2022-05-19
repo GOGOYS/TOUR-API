@@ -163,15 +163,22 @@ div.attr_container:hover {
   /* opacity: 0.6; */
   transition-duration: 0.3s;
 }
+<<<<<<< HEAD
 div.attr_container:hover .img_p {
   visibility: visible;
 }
+=======
+>>>>>>> 927b1e00fa19b899e66372d6be5b86acc7ad36bd
 /* 사진 위에 '자세히보기' */
 .img_p {
   text-align: center;
   position: absolute;
+<<<<<<< HEAD
   color: white;
   visibility: hidden;
+=======
+  color: #fff;
+>>>>>>> 927b1e00fa19b899e66372d6be5b86acc7ad36bd
 }
 
 div.btn {
