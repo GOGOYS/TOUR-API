@@ -159,20 +159,34 @@ div.attr_container {
   cursor: pointer;
 }
 div.attr_container:hover {
-  filter: brightness(20%);
-  /* opacity: 0.6; */
-  transition-duration: 0.3s;
+  /* filter: brightness(20%);
+  transition-duration: 0.3s; */
+  opacity: 0.6;
 }
-div.attr_container:hover .img_p {
+div.food_container {
+  transition: opacity 0.6s ease-in-out;
+  cursor: pointer;
+}
+div.food_container:hover {
+  opacity: 0.6;
+}
+div.stay_container {
+  transition: opacity 0.6s ease-in-out;
+  cursor: pointer;
+}
+div.stay_container:hover {
+  opacity: 0.6;
+}
+/* div.attr_container:hover .img_p {
   visibility: visible;
-}
+} */
 /* 사진 위에 '자세히보기' */
-.img_p {
+/* .img_p {
   text-align: center;
   position: absolute;
   color: white;
   visibility: hidden;
-}
+} */
 
 div.btn {
   display: flex;
