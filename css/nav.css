@@ -94,7 +94,7 @@ ul.drop-soccer {
   min-height: 0px;
   visibility: hidden;
   opacity: 0;
-  z-index: -1;
+
   transition: 1s;
   transform: translateY(-2rem);
   margin-left: 20px;
@@ -106,6 +106,7 @@ ul.drop-soccer {
 
 #soccer:hover ul.drop-soccer {
   visibility: visible;
+
   opacity: 1;
   transform: translateY(0%);
 }
@@ -114,7 +115,6 @@ ul.drop-baseball {
   min-height: 0px;
   visibility: hidden;
   opacity: 0;
-  z-index: -1;
   transition: 1s;
   transform: translateY(-2rem);
   margin-left: 20px;
@@ -191,8 +191,7 @@ ul.drop-baseball {
   min-height: 0px;
   visibility: hidden;
   opacity: 0;
-  z-index: -1;
-  transition: 0.6s;
+  transition: 1s;
   transform: translateY(-2rem);
   position: absolute;
   left: 0;
@@ -208,8 +207,7 @@ ul.drop-baseball {
   min-height: 0px;
   visibility: hidden;
   opacity: 0;
-  z-index: -1;
-  transition: 0.6s;
+  transition: 1s;
   transform: translateY(-2rem);
   position: absolute;
   left: 0;
