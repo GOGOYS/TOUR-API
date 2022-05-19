@@ -35,8 +35,6 @@ section > article > h1 {
   position: absolute;
   top: 200px;
   left: 170px;
-  font-size: 18px;
-  background-color: rgb(0, 24, 65);
 }
 
 .gangwon1 {
@@ -86,8 +84,10 @@ section > article > h1 {
 
 .incheon {
   position: absolute;
-  top: 230px;
+  top: 227px;
   left: 80px;
+  font-size: 18px;
+  background-color: rgb(0, 24, 65);
 }
 
 .jeonbuk {
@@ -131,6 +131,7 @@ section > article > h1 {
 }
 
 #ticket-book img {
+  height: 272px;
   width: 560px;
   margin: 10px 0 0 20px;
 }
