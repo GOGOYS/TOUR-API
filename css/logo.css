@@ -1,15 +1,16 @@
 #logo_img {
-  width: 300px;
-  height: 300px;
+  width: 280px;
+  height: 260px;
   transform: translateY(-120%);
   display: block;
-  margin: 0px auto;
+  margin: 0 auto;
+  padding-bottom: 50px;
   transition-duration: 1s;
   transition-delay: 0.2s;
 }
 
 .main_button:hover #logo_img {
-  transform: translate(760px, -760px) scale(0.6) rotate(200deg);
+  transform: translate(510px, -760px) scale(0.6) rotate(200deg);
 }
 
 /* #logo_img:hover {

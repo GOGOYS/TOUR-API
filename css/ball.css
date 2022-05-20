@@ -1,11 +1,11 @@
 #football_img {
-  transition-duration: 0.7s;
+  transition-duration: 1s;
   width: 120px;
   height: 120px;
 }
 
 #baseball_img {
-  transition-duration: 0.7s;
+  transition-duration: 1s;
   width: 100px;
   height: 100px;
 }
@@ -19,7 +19,7 @@
 
 #football:hover + #football_img {
   visibility: visible;
-  transform: translateX(960px) translate(960px) rotate(200deg);
+  transform: translateX(950px) translate(960px) rotate(200deg);
 }
 
 #baseball:hover + #baseball_img {

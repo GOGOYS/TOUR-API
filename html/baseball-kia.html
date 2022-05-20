@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Season + ingㅣbaseball-kia</title>
     <link rel="stylesheet" href="../css/nav.css" />
     <link rel="stylesheet" href="../css/bvo-league-box.css" />
     <link rel="stylesheet" href="../css/popular-view.css" />
@@ -20,6 +20,7 @@
       src="//dapi.kakao.com/v2/maps/sdk.js?appkey=b801ddbd49c9b14fef4051c9f7807b4f"
     ></script>
     <script src="../js/popular-view.js"></script>
+    
     <!-- <script type="text/javascript" src="../js/map.js"></script> -->
     <script>
       document.addEventListener("DOMContentLoaded", () => {
@@ -64,7 +65,7 @@
           <ul id="menu">
             <li id="logo"><a href="main.html"><img src="../images/logo.png"></a></a></li>
             <li id="soccer">
-              <a href="#">축구</a>
+              <a href="../html/soccer-seoul.html">축구</a>
               <ul class="drop-menu drop-soccer">
                 <li><a href="#">김천 상무</a></li>
                 <li><a href="../html/soccer-incheon.html">인천 UNT</a></li>
@@ -81,7 +82,7 @@
               </ul>
             </li>
             <li id="baseball">
-              <a href="#">야구</a>
+              <a href="../html/baseball-kia.html">야구</a>
               <ul class="drop-menu drop-baseball">
                 <li><a href="#">KT 위즈</a></li>
                 <li><a href="#">두산 베어스</a></li>
@@ -137,10 +138,53 @@
             <p>기아 타이거즈 홈구장 <span>기아챔피언스필드</span></p>
             <img src="../img/kia.jpg" />
             <div id="match-text">
-             <a href="#"><i class="fa-solid fa-chevron-left"></i></a><p>5월 경기 일정</p><a href="#"><i class="fa-solid fa-chevron-right"></i></a>
+             <a class="match-lbtn"><i class="fa-solid fa-chevron-left "></i></a><p>5월 경기 일정</p><a   class="match-rbtn"><i class="fa-solid fa-chevron-right"></i></a>
             </div>
+            <div class="table-slide">
+            <div class="table-box table-back">
             <table>
+              <tr style="background-color: rgb(255, 99, 99);">
+                <td>경기</td>
+                <td>날짜</td>
+                <td>시간</td>
+                <td>매치업</td>
+              </tr>
               <tr>
+                <td>R11 K리그1</td>
+                <td>06.08(일)</td>
+                <td>16:30</td>
+                <td>인천UNT &nbsp; VS &nbsp; 수원FC</td>
+              </tr>
+              <tr>
+                <td>R12 K리그1</td>
+                <td>06.14토)</td>
+                <td>19:00</td>
+                <td>인천UNT &nbsp; VS &nbsp; 울산 현대</td>
+              </tr>
+              <tr>
+                <td>R13 K리그1</td>
+                <td>06.17(화)</td>
+                <td>19:30</td>
+                <td>인천UNT &nbsp; VS &nbsp; 성남FC</td>
+              </tr>
+              <tr>
+                <td>R14 K리그1</td>
+                <td>06.21(토)</td>
+                <td>18:00</td>
+                <td>인천UNT &nbsp; VS &nbsp; 포항 스틸러스</td>
+              </tr>
+              <tr>
+                <td>R15 K리그1</td>
+                <td>06.29(일)</td>
+                <td>16:30</td>
+                <td>인천UNT &nbsp; VS &nbsp; 성남FC</td>
+              </tr>
+            </table>
+          </div>
+          
+          <div class="table-box table-front">
+            <table>
+              <tr >
                 <td>경기</td>
                 <td>날짜</td>
                 <td>시간</td>
@@ -177,6 +221,10 @@
                 <td>인천UNT &nbsp; VS &nbsp; 성남FC</td>
               </tr>
             </table>
+          </div>
+        </div>
+       
+          
             <a href="https://www.fcseoul.com/tickets/reserveSingleTicket"
               ><div id="ticket-link">티켓 예매하러 가기</div></a
             >
@@ -351,14 +399,14 @@
               infowindow.close();
             });
           </script>
-          <div id="tour-list">
-            <div id="choice-tour-menu">
-              <a href="#"><div id="choice-all">전체</div></a>
-              <a href="#"><div>식당</div></a>
-              <a href="#"><div>숙박</div></a>
+          <div class="tour-list first-list" style="z-index: 100;" >
+            <div class="choice-tour-menu">
+              <a class="btn-all"><div class="choice-all">전체</div></a>
+              <a class="btn-bob"><div>식당</div></a>
+              <a><div>숙박</div></a>
             </div>
             <p>총 <span>100</span>개의 결과가 있습니다</p>
-            <div id="list-detail">
+            <div class="list-detail">
               <div class="tour-detail">
                 <div class="detail-img"><img src="../img/tour (1).jpg" /></div>
                 <div>
@@ -538,6 +586,127 @@
             </div>
           </div>
         </div>
+
+        <div class="tour-list list-position">
+          <div class="choice-tour-menu">
+            <a class="btn-all" ><div >전체</div></a>
+            <a class="btn-bob"><div class="choice-bab">식당</div></a>
+            <a ><div>숙박</div></a>
+          </div>
+          <p>총 <span>55</span>개의 결과가 있습니다</p>
+          <div class="list-detail">
+           
+            <div class="tour-detail">
+              <div class="detail-img"><img src="../img/tour (3).jpg" /></div>
+              <div>
+                <p>[식당]아주 맛난집</p>
+                <p>
+                  아주 맛나게 가고싶은 <br />
+                  식당 너무 멋졍
+                </p>
+                <a href="../html/tour-detail.html"><div class="detail-watch">자세히 보러가기</div></a>
+              </div>
+            </div>
+            <div class="tour-detail">
+              <div class="detail-img"><img src="../img/tour (4).jpg" /></div>
+              <div>
+                <p>[식당]아주나이스</p>
+                <p>
+                  아주 으리으리하게 가고싶은 <br />
+                  식당 너무 멋졍
+                </p>
+                <a href="../html/tour-detail.html"><div class="detail-watch">자세히 보러가기</div></a>
+              </div>
+            </div>
+            <div class="tour-detail">
+              <div class="detail-img"><img src="../img/tour (3).jpg" /></div>
+              <div>
+                <p>[식당]아주 맛난집</p>
+                <p>
+                  아주 맛나게 가고싶은 <br />
+                  식당 너무 멋졍
+                </p>
+                <a href="../html/tour-detail.html"><div class="detail-watch">자세히 보러가기</div></a>
+              </div>
+            </div>
+            <div class="tour-detail">
+              <div class="detail-img"><img src="../img/tour (4).jpg" /></div>
+              <div>
+                <p>[식당]아주나이스</p>
+                <p>
+                  아주 으리으리하게 가고싶은 <br />
+                  식당 너무 멋졍
+                </p>
+                <a href="../html/tour-detail.html"><div class="detail-watch">자세히 보러가기</div></a>
+              </div>
+            </div><div class="tour-detail">
+              <div class="detail-img"><img src="../img/tour (3).jpg" /></div>
+              <div>
+                <p>[식당]아주 맛난집</p>
+                <p>
+                  아주 맛나게 가고싶은 <br />
+                  식당 너무 멋졍
+                </p>
+                <a href="../html/tour-detail.html"><div class="detail-watch">자세히 보러가기</div></a>
+              </div>
+            </div>
+            <div class="tour-detail">
+              <div class="detail-img"><img src="../img/tour (4).jpg" /></div>
+              <div>
+                <p>[식당]아주나이스</p>
+                <p>
+                  아주 으리으리하게 가고싶은 <br />
+                  식당 너무 멋졍
+                </p>
+                <a href="../html/tour-detail.html"><div class="detail-watch">자세히 보러가기</div></a>
+              </div>
+            </div><div class="tour-detail">
+              <div class="detail-img"><img src="../img/tour (3).jpg" /></div>
+              <div>
+                <p>[식당]아주 맛난집</p>
+                <p>
+                  아주 맛나게 가고싶은 <br />
+                  식당 너무 멋졍
+                </p>
+                <a href="../html/tour-detail.html"><div class="detail-watch">자세히 보러가기</div></a>
+              </div>
+            </div>
+            <div class="tour-detail">
+              <div class="detail-img"><img src="../img/tour (4).jpg" /></div>
+              <div>
+                <p>[식당]아주나이스</p>
+                <p>
+                  아주 으리으리하게 가고싶은 <br />
+                  식당 너무 멋졍
+                </p>
+                <a href="../html/tour-detail.html"><div class="detail-watch">자세히 보러가기</div></a>
+              </div>
+            </div><div class="tour-detail">
+              <div class="detail-img"><img src="../img/tour (3).jpg" /></div>
+              <div>
+                <p>[식당]아주 맛난집</p>
+                <p>
+                  아주 맛나게 가고싶은 <br />
+                  식당 너무 멋졍
+                </p>
+                <a href="../html/tour-detail.html"><div class="detail-watch">자세히 보러가기</div></a>
+              </div>
+            </div>
+            <div class="tour-detail">
+              <div class="detail-img"><img src="../img/tour (4).jpg" /></div>
+              <div>
+                <p>[식당]아주나이스</p>
+                <p>
+                  아주 으리으리하게 가고싶은 <br />
+                  식당 너무 멋졍
+                </p>
+                <a href="../html/tour-detail.html"><div class="detail-watch">자세히 보러가기</div></a>
+              </div>
+            
+           
+          </div>
+        </div>
+      </div>
       </article>
       <div class="popular_view">
         <h4 class="view_title">인기 관광지</h4>
@@ -1246,4 +1415,6 @@
     <footer></footer>
   </body>
   <script src="../js/test.js"></script>
+  <script type="text/javascript" src="../js/match-table.js"></script>
+  <script type="text/javascript" src="../js/tour-scroll.js"></script>
 </html>
