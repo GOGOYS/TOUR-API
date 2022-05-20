@@ -68,18 +68,18 @@ section > article > h1 {
 .suwon1 {
   position: absolute;
   top: 265px;
-  left: 130px;
+  left: 100px;
 }
 .suwon2 {
   position: absolute;
   top: 270px;
-  left: 230px;
+  left: 220px;
 }
 
-.ulsan {
+.busan {
   position: absolute;
   top: 560px;
-  left: 420px;
+  left: 440px;
 }
 
 .incheon {
@@ -89,22 +89,22 @@ section > article > h1 {
 
 }
 
-.jeonbuk {
+.deajeon {
   position: absolute;
-  top: 510px;
-  left: 160px;
+  top: 420px;
+  left: 190px;
 }
 
-.jeju {
+.gwangju {
   position: absolute;
-  top: 810px;
-  left: 90px;
+  top: 590px;
+  left: 80px;
 }
 
-.pohang {
+.changwon {
   position: absolute;
-  top: 510px;
-  left: 440px;
+  top: 570px;
+  left: 325px;
 }
 
 #ticket-book {
