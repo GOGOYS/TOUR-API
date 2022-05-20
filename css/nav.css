@@ -6,6 +6,9 @@
   text-decoration: none;
 }
 
+body {
+  width: 100vw;
+}
 header {
   width: 100vw;
   height: 80px;
@@ -49,9 +52,8 @@ nav {
   position: absolute;
   left: 0;
 }
-#logo img{
+#logo img {
   width: 80px;
-
 }
 #menu > li > a:after {
   display: block;
